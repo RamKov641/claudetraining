@@ -9,6 +9,12 @@ Run the script and enter a number when prompted:
 python3 prime_checker.py
 ```
 
+Or pass the number as an argument:
+
+```
+python3 prime_checker.py 17
+```
+
 Run the tests:
 
 ```
