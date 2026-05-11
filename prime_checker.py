@@ -14,7 +14,11 @@ def is_prime(n):
 
 
 def main():
-    raw = input("Enter a number: ").strip()
+    import sys
+    if len(sys.argv) > 1:
+        raw = sys.argv[1]
+    else:
+        raw = input("Enter a number: ").strip()
     try:
         n = int(raw)
     except ValueError:
